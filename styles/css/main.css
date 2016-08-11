@@ -121,7 +121,7 @@ html {
   margin: 0 auto;
 }
 
-.band-camp-btn {
+.facebook-events-btn {
   width: 200px;
   height: 40px;
   margin: 0 auto;
@@ -131,7 +131,35 @@ html {
   line-height: 40px;
   border-radius: 3px;
 }
-.band-camp-btn a {
+.facebook-events-btn a {
   color: white;
   text-decoration: none;
+}
+
+.facebook-events-btn {
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+#Music {
+  height: 830px;
+  background: #435770;
+  color: white;
+  display: inline-block;
+  width: 100vw;
+}
+#Music h2 {
+  margin-top: 100px;
+}
+
+.musicVideoOne {
+  margin: 50px auto 0;
+  display: block;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.musicVideoOne:hover {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 40px 0 rgba(0, 0, 0, 0.3);
 }
