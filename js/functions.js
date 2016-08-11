@@ -3,4 +3,4 @@ $(window).scroll(function(){
   $('.logo').css({
     'transform' : 'translate(0px, '+ wScroll /2 +'%)'
   });
-})
+});
