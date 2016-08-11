@@ -1,0 +1,97 @@
+//@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700)
+//@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500)
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700)
+
+$bg-blue: #435770
+
+html
+  //font-family: 'Montserrat', sans-serif
+  //font-family: 'Roboto', sans-serif
+  font-family: 'Lato', sans-serif
+
+.sr-only
+  display: none
+
+.fog-container
+  position: relative
+  height: 600px
+  background:
+    image: url(/assets/imgs/fog-bg.png)
+    size: cover
+    position: center top
+    attachment: fixed
+
+@media (min-width: 1440px)
+  .fog-container
+    height: 800px
+
+.logo
+  height: 80px
+  width: 100%
+  background:
+    image: url(/assets/imgs/laska-logo.png)
+    size: contain
+    position: center
+    repeat: no-repeat
+  position: absolute
+  top: 50%
+  margin-top: -40px
+
+.header-nav
+  //background: pink
+  display: flex
+  justify-content: space-between
+  height: 10vh
+  align-items: center
+  .left-nav
+    a
+      margin-left: 3vw
+  .right-nav
+    a
+      margin-right: 3vw
+  a
+    color: rgba(0,0,0,0.8)
+    text-decoration: none
+    opacity: 80%
+    transition: .1s ease-in-out
+    &:hover
+      color: rgba(0,0,0,1)
+      border-bottom: 5px solid black
+
+.section-heading
+  font-weight: 300
+  font-size: 19px
+  text-transform: uppercase
+  text-align: center
+
+#About
+  height: 500px
+  background: $bg-blue
+  color: white
+  display: inline-block
+  width: 100vw
+
+.about-contianer
+  max-width: 600px
+  margin: 0 auto
+  p
+    font-size: 16px
+    margin-top: 50px
+    font-weight: 300
+  h2
+    margin-top: 100px
+
+#Shows
+  height: 500px
+  background: white
+  display: inline-block
+  width: 100vw
+  h2
+    margin-top: 100px
+  .events-list
+    margin-top: 50px
+
+.shows-container
+  color: $bg-blue
+  max-width: 600px
+  margin: 0 auto

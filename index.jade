@@ -1,17 +1,52 @@
 doctype html
 html
-
-
   head
     meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
     meta(charset="UTF-8")
-    title LASKA Band
+    title Laska Band
     link(rel='stylesheet', type='text/css', href='/bower_components/normalize-css/normalize.css')
     link(rel='stylesheet', type='text/css', href='/styles/css/main.css')
     
-    
   body
-    p hello
-  
+    header.fog-container
+      h1.sr-only LASKA
+      nav.header-nav
+        .left-nav
+          a(href="") About
+        .right-nav
+          a(href="") Shows
+          a(href="") Music
+          a(href="") Photos
+          a(href="") Contact
+      .logo
+    
+    section#About
+      .about-contianer
+        h2.section-heading About
+        p LASKA (formerly The Morton Sisters) from Eau Claire, WI provide the perfect soundtrack for embracing the beauty in pain.  Songwriting sisters Hannah Mae, Bex and Mookie weave influences of Alternative, Americana and Desert Rock with raw emotion in their songs. They are all confident vocalists knowing what each will bring to the table to sing lead, but also support one another with beautifully hard-hitting harmonies.  Topping off the harmonic sheen is an instrumental arsenal including violin, guitar, banjo, mandolin, ukulele, and cello.  Combine this with an un-apologetic rhythm section in tow, including Evan Middlesworth on electric guitar, Zach Brawford on drums, and Ethan Schmidt on Bass, and the whole of this band is far greater than the sum of its parts.
+        //img(src="/assets/imgs/brail-logo.png").brail-logo
+        
+    section#Shows
+      .shows-container
+        h2.section-heading Shows
+        .events-list
+          p 
+            b August 18 
+            | Sounds Like Summer Concert Series Phoenix Park, Eau Claire, WI 6:30
+          p 
+            b August 18 
+            | SLS After Party at The Plus Eau Claire, WI time TBD
+          p 
+            b August 21 
+            | Icehouse MPLS with Brian Bethke Band (All Ages) Minneapolis, MN 6:30
+          p 
+            b September 2 
+            | Baldwin-Woodville High School Baldwin, WI time TBD
+          p 
+            b September 3 
+            | The Historic Trempealeau Hotel Trempealeau, WI time TBD
+            
+        a(href="").band-camp-btn facebook 
+        
     script(src="/bower_components/jquery/dist/jquery.min.js")
     script(src="/js/functions.js")
