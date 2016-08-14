@@ -14,7 +14,7 @@ html {
 .fog-container {
   position: relative;
   height: 600px;
-  background-image: url(/assets/imgs/fog-bg.png);
+  background-image: url(../../assets/imgs/fog-bg.png);
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
@@ -28,7 +28,7 @@ html {
 .logo {
   height: 80px;
   width: 100%;
-  background-image: url(/assets/imgs/laska-logo.png);
+  background-image: url(../../assets/imgs/laska-logo.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
