@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Lato", sans-serif;
 }
@@ -79,14 +83,33 @@ html {
   color: white;
   display: inline-block;
   width: 100vw;
+  position: relative;
 }
 
 .brail-container {
   width: 200px;
   margin: 50px auto 0;
+  position: relative;
 }
 .brail-container img {
   width: 200px;
+}
+
+.laska-letters {
+  position: absolute;
+  top: 0;
+  left: -40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 35px;
+  font-weight: 300;
 }
 
 .about-contianer {
@@ -124,26 +147,44 @@ html {
 .facebook-events-btn {
   width: 200px;
   height: 40px;
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 50px auto 0;
   text-align: center;
   background: #C2D0F4;
   line-height: 40px;
   border-radius: 3px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 .facebook-events-btn a {
   color: white;
   text-decoration: none;
 }
+.facebook-events-btn:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
 
-.facebook-events-btn {
+.band-camp-btn {
   width: 200px;
   height: 40px;
-  margin: 0 auto;
+  margin: 50px auto 0;
+  text-align: center;
+  background: transparentize;
+  line-height: 35px;
+  border: 2px solid #C2D0F4;
+  border-radius: 3px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+.band-camp-btn a {
+  color: #C2D0F4;
+  text-decoration: none;
+}
+.band-camp-btn:hover {
+  box-shadow: 0 0px 20px 0 rgba(158, 204, 204, 0.3);
 }
 
 #Music {
-  height: 830px;
+  height: 700px;
   background: #435770;
   color: white;
   display: inline-block;
@@ -162,4 +203,120 @@ html {
 }
 .musicVideoOne:hover {
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 40px 0 rgba(0, 0, 0, 0.3);
+}
+
+#Photos {
+  height: 500px;
+}
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  margin-right: 5px;
+  overflow: hidden;
+}
+.carousel-cell img {
+  display: block;
+  height: 500px;
+}
+
+.flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+}
+.flickity-prev-next-button:hover {
+  background: transparent;
+}
+.flickity-prev-next-button .arrow {
+  fill: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+
+.flickity-page-dots {
+  display: none;
+  bottom: 0px;
+}
+
+#Contact {
+  height: 600px;
+  background: #435770;
+  color: white;
+  display: inline-block;
+  width: 100vw;
+}
+#Contact h2 {
+  margin-top: 130px;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto 0;
+  text-align: center;
+}
+.contact-container img {
+  width: 264px;
+}
+.contact-container p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.contact-container a {
+  color: white;
+  font-weight: 400;
+}
+.contact-container .contact-social {
+  margin-top: 50px;
+}
+
+.contact-social a {
+  color: white;
+  font-size: 40px;
+  margin: 0 20px 0;
+}
+.contact-social a:hover {
+  color: rgba(250, 250, 250, 0.8);
+}
+
+footer {
+  height: 300px;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 12px;
+}
+footer .footer-nav {
+  margin-bottom: 50px;
+}
+footer .footer-nav a {
+  margin: 0 20px 0;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+footer .footer-nav a:hover {
+  color: black;
+}
+footer .footer-ref span {
+  margin: 0 30px 0;
+  color: rgba(0, 0, 0, 0.4);
 }

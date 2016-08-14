@@ -1,1 +1,1 @@
-$(window).scroll(function(){var o=$(this).scrollTop();$(".logo").css({transform:"translate(0px, "+o/2+"%)"})});
+$(window).scroll(function(){var t=$(this).scrollTop();$(".logo").css({transform:"translate(0px, "+t/2+"%)"})}),function($){"use strict";$("a.page-scroll").bind("click",function(t){var o=$(this);$("html, body").stop().animate({scrollTop:$(o.attr("href")).offset().top-0},1250,"easeInOutExpo"),t.preventDefault()})}(jQuery);

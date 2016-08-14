@@ -6,19 +6,22 @@ html
     title Laska Band
     link(rel='stylesheet', type='text/css', href='/bower_components/normalize-css/normalize.css')
     link(rel='stylesheet', type='text/css', href='/styles/css/main.css')
+    link(rel='stylesheet', href='https://npmcdn.com/flickity@2.0/dist/flickity.min.css')
+    link(rel='stylesheet', href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')
+    link(rel='stylesheet', href='/styles/css/animate.min.css')
     
-  body
+  body#Home 
     header.fog-container
       h1.sr-only LASKA
-      nav.header-nav
+      nav.header-nav.wow.fadeIn(data-wow-duration="1s" data-wow-delay="2s")
         .left-nav
-          a(href="") About
+          a(href="#About").page-scroll About
         .right-nav
-          a(href="") Shows
-          a(href="") Music
-          a(href="") Photos
-          a(href="") Contact
-      .logo
+          a(href="#Shows").page-scroll Shows
+          a(href="#Music").page-scroll Music
+          a(href="#Photos").page-scroll Photos
+          a(href="#Contact").page-scroll Contact
+      .logo.wow.fadeIn(data-wow-duration="5s")
     
     section#About
       .about-contianer
@@ -26,6 +29,12 @@ html
         p LASKA (formerly The Morton Sisters) from Eau Claire, WI provide the perfect soundtrack for embracing the beauty in pain.  Songwriting sisters Hannah Mae, Bex and Mookie weave influences of Alternative, Americana and Desert Rock with raw emotion in their songs. They are all confident vocalists knowing what each will bring to the table to sing lead, but also support one another with beautifully hard-hitting harmonies.  Topping off the harmonic sheen is an instrumental arsenal including violin, guitar, banjo, mandolin, ukulele, and cello.  Combine this with an un-apologetic rhythm section in tow, including Evan Middlesworth on electric guitar, Zach Brawford on drums, and Ethan Schmidt on Bass, and the whole of this band is far greater than the sum of its parts.
         .brail-container
           img(src="/assets/imgs/brail-logo.png").brail-logo
+          .laska-letters
+            span(data-wow-delay="1s").wow.fadeIn L 
+            span(data-wow-delay="1.2s").wow.fadeIn A
+            span(data-wow-delay="1.4s").wow.fadeIn S
+            span(data-wow-delay="1.6s").wow.fadeIn K
+            span(data-wow-delay="1.8s").wow.fadeIn A
         
     section#Shows
       .shows-container
@@ -53,8 +62,55 @@ html
     section#Music
       h2.section-heading Music
       iframe(width='600', height='337.5', src='https://www.youtube.com/embed/OcoPOUVsJIA', frameborder='0', allowfullscreen='').musicVideoOne
-      .band-camp-btn
+      
+      .band-camp-btn.wow.pulse
         a(href="") band camp
+        
+    section#Photos
+      h2.sr-only Photos
+      .carousel(data-flickity='{ "cellAlign": "center", "contain": false, "wrapAround": true  }')
+        .carousel-cell
+          img(src="/assets/imgs/photo1.jpg")
+        .carousel-cell
+          img(src="/assets/imgs/photo2.jpg")
+        .carousel-cell
+          img(src="/assets/imgs/photo3.jpg")
+        .carousel-cell
+          img(src="/assets/imgs/photo4.jpg")
+        .carousel-cell
+          img(src="/assets/imgs/demo-photo.jpg")
+            
+    section#Contact
+      h2.section-heading Contact
+      .contact-container
+        img(src="assets/imgs/logo-white.png")
+        p You can contact us 
+          a(href="") here 
+          | to book for your next private party, big event, wedding, or other affairs! We are available as acoustic trio or full band for bigger events.
+        .contact-social
+          a(href="", data-wow-delay="1s").ion-social-facebook.wow.fadeIn
+          a(href="", data-wow-delay="1.2s").ion-social-instagram.wow.fadeIn
+          a(href="", data-wow-delay="1.4s").ion-social-twitter.wow.fadeIn
+          a(href="", data-wow-delay="1.6s").ion-social-youtube.wow.fadeIn
+          a(href="", data-wow-delay="1.8s").ion-music-note.wow.fadeIn
+          
+    footer
+      .footer-nav
+        a(href="#Home").page-scroll Home
+        a(href="#About").page-scroll About
+        a(href="#Shows").page-scroll Shows
+        a(href="#Music").page-scroll Music
+        a(href="#Photos").page-scroll Photos
+        a(href="#Contact").page-scroll Contact
+      .footer-ref
+        span Photography by Kaitlin Hoefer
+        span Copyright LASKA © 2016
+        span Website by Noah Delagardelle
         
     script(src="/bower_components/jquery/dist/jquery.min.js")
     script(src="/js/functions.js")
+    script(src='https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js')
+    script(src='/js/jquery.easing.min.js')
+    script(src='js/wow.min.js')
+    script.
+      new WOW().init();
