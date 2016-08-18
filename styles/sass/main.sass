@@ -24,10 +24,21 @@ html
     size: cover
     position: center top
     attachment: fixed
+    repeat: no-repeat
 
 @media (min-width: 1440px)
   .fog-container
     height: 800px
+
+@media (max-width: 425px)
+  .fog-container
+    height: 400px
+
+  .fog-container
+    .header-nav
+      display: none
+    .logo
+      height: 60px
 
 .logo
   height: 80px
@@ -69,7 +80,7 @@ html
   text-align: center
 
 #About
-  height: 700px
+  //height: 700px
   background: $bg-blue
   color: white
   display: inline-block
@@ -77,11 +88,25 @@ html
   position: relative
   //display: none
 
+.about-contianer
+  max-width: 620px
+  margin: 0 auto
+  p
+    font-size: 16px
+    margin: 50px 10px 0
+    font-weight: 300
+  h2
+    margin-top: 100px
+
+@media (min-width: 425px)
+  .about-contianer
+    h2
+      margin-top: 50px
 
 .brail-container
   //border: 5px dotted red
   width: 200px
-  margin: 50px auto 0
+  margin: 50px auto 50px
   position: relative
   img
     width: 200px
@@ -94,19 +119,9 @@ html
   flex-direction: column
   font-size: 35px
   font-weight: 300
-
-.about-contianer
-  max-width: 600px
-  margin: 0 auto
-  p
-    font-size: 16px
-    margin-top: 50px
-    font-weight: 300
-  h2
-    margin-top: 100px
+  display: none
 
 #Shows
-  height: 500px
   background: white
   display: inline-block
   width: 100vw
@@ -115,52 +130,73 @@ html
   .events-list
     margin-top: 50px
 
+@media(max-width: 450px)
+  #Shows
+    h2
+      margin-top: 50px
+
 .shows-container
   color: $bg-blue
-  max-width: 600px
+  max-width: 620px
   margin: 0 auto
+  p
+    margin: 0 10px 12px
 
 .facebook-events-btn
+  margin: 50px auto 100px
+  display: block
   width: 200px
-  height: 40px
-  margin: 50px auto 0
   text-align: center
   background: $light-blue
   line-height: 40px
-  border-radius: 3px
   transition: .2s ease-in-out
-  a
-    color: white
-    text-decoration: none
+  color: white
+  text-decoration: none
   &:hover
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3)
+    box-shadow: 0 3px 20px 0 rgba(194,208,244,0.8)
     //cursor: pointer
 
 .band-camp-btn
+  display: block
   width: 200px
   height: 40px
-  margin: 50px auto 0
+  margin: 50px auto 100px
   text-align: center
   background: transparentize
   line-height: 35px
   border: 2px solid $light-blue
-  border-radius: 3px
   transition: .2s ease-in-out
-  a
-    color: $light-blue
-    text-decoration: none
+  color: $light-blue
+  text-decoration: none
   &:hover
     box-shadow: 0 0px 20px 0 rgba(158,204,204,0.3)
 
-
 #Music
-  height: 700px
+  //height: 700px
   background: $bg-blue
   color: white
   display: inline-block
   width: 100vw
   h2
     margin-top: 100px
+
+  iframe
+    width: 600px
+    height: 337.5px
+
+@media(max-width: 600px)
+  #Music
+    iframe
+      width: 100%
+      height: (100vw)/1.77
+
+@media(max-width: 450px)
+  #Music
+    h2
+      margin-top: 50px
+    .band-camp-btn
+      margin-bottom: 50px
+
 
 .musicVideoOne
   margin: 50px auto 0
@@ -183,6 +219,14 @@ html
     display: block
     height: 500px
 
+@media(max-width: 768px)
+  #Photos
+    height: 300px
+
+  .carousel-cell
+    img
+      height: 300px
+
 .flickity-prev-next-button
   width: 100px
   height: 100px
@@ -198,18 +242,14 @@ html
   display: none
   bottom: 0px
 
-//@media screen and (min-width: 768px)
-  .carousel-cell img
-    height: 400px
-
 #Contact
-  height: 600px
+  //height: 600px
   background: $bg-blue
   color: white
   display: inline-block
   width: 100vw
   h2
-    margin-top: 130px
+    margin-top: 100px
 
 .contact-container
   max-width: 600px
@@ -218,6 +258,8 @@ html
   img
     width: 264px
   p
+    display: none
+
     font-size: 16px
     font-weight: 300
     margin-top: 50px
@@ -225,16 +267,39 @@ html
     color: white
     font-weight: 400
 
-  .contact-social
-    margin-top: 50px
+.booking-btn
+  display: block
+  margin: 40px auto 40px
+  border: 2px solid white
+  width: 300px
+  height: 40px
+  line-height: 35px
+  text-decoration: none
+  transition: .2s ease-in-out
+  &:hover
+    box-shadow: 0 4px 8px 0 rgba(250, 250, 250, 0.2), 0 0px 20px 1px rgba(250, 250, 250, 0.1)
 
 .contact-social
+  margin-top: 50px
+  margin-bottom: 100px
   a
     color: white
     font-size: 40px
     margin: 0 20px 0
     &:hover
       color: rgba(250,250,250,0.8)
+
+@media(max-width: 425px)
+  #Contact
+    h2
+      margin-top: 50px
+    .contact-social
+      margin-bottom: 50px
+
+@media(max-width: 320px)
+  .contact-social
+    a
+      font-size: 30px
 
 footer
   height: 300px
@@ -257,3 +322,15 @@ footer
     span
       margin: 0 30px 0
       color: rgba(0,0,0,0.4)
+
+@media(max-width: 600px)
+  footer
+    height: 200px
+    text-align: center
+    .footer-nav
+      display: none
+    .footer-ref
+      display: flex
+      flex-direction: column
+      span
+        margin: 10px

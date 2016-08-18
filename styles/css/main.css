@@ -18,11 +18,24 @@ html {
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 1440px) {
   .fog-container {
     height: 800px;
+  }
+}
+@media (max-width: 425px) {
+  .fog-container {
+    height: 400px;
+  }
+
+  .fog-container .header-nav {
+    display: none;
+  }
+  .fog-container .logo {
+    height: 60px;
   }
 }
 .logo {
@@ -78,7 +91,6 @@ html {
 }
 
 #About {
-  height: 700px;
   background: #435770;
   color: white;
   display: inline-block;
@@ -86,9 +98,27 @@ html {
   position: relative;
 }
 
+.about-contianer {
+  max-width: 620px;
+  margin: 0 auto;
+}
+.about-contianer p {
+  font-size: 16px;
+  margin: 50px 10px 0;
+  font-weight: 300;
+}
+.about-contianer h2 {
+  margin-top: 100px;
+}
+
+@media (min-width: 425px) {
+  .about-contianer h2 {
+    margin-top: 50px;
+  }
+}
 .brail-container {
   width: 200px;
-  margin: 50px auto 0;
+  margin: 50px auto 50px;
   position: relative;
 }
 .brail-container img {
@@ -110,23 +140,10 @@ html {
           flex-direction: column;
   font-size: 35px;
   font-weight: 300;
-}
-
-.about-contianer {
-  max-width: 600px;
-  margin: 0 auto;
-}
-.about-contianer p {
-  font-size: 16px;
-  margin-top: 50px;
-  font-weight: 300;
-}
-.about-contianer h2 {
-  margin-top: 100px;
+  display: none;
 }
 
 #Shows {
-  height: 500px;
   background: white;
   display: inline-block;
   width: 100vw;
@@ -138,44 +155,47 @@ html {
   margin-top: 50px;
 }
 
+@media(max-width: 450px) {
+  #Shows h2 {
+    margin-top: 50px;
+  }
+}
 .shows-container {
   color: #435770;
-  max-width: 600px;
+  max-width: 620px;
   margin: 0 auto;
+}
+.shows-container p {
+  margin: 0 10px 12px;
 }
 
 .facebook-events-btn {
+  margin: 50px auto 100px;
+  display: block;
   width: 200px;
-  height: 40px;
-  margin: 50px auto 0;
   text-align: center;
   background: #C2D0F4;
   line-height: 40px;
-  border-radius: 3px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
-}
-.facebook-events-btn a {
   color: white;
   text-decoration: none;
 }
 .facebook-events-btn:hover {
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 20px 0 rgba(194, 208, 244, 0.8);
 }
 
 .band-camp-btn {
+  display: block;
   width: 200px;
   height: 40px;
-  margin: 50px auto 0;
+  margin: 50px auto 100px;
   text-align: center;
   background: transparentize;
   line-height: 35px;
   border: 2px solid #C2D0F4;
-  border-radius: 3px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
-}
-.band-camp-btn a {
   color: #C2D0F4;
   text-decoration: none;
 }
@@ -184,7 +204,6 @@ html {
 }
 
 #Music {
-  height: 700px;
   background: #435770;
   color: white;
   display: inline-block;
@@ -193,7 +212,25 @@ html {
 #Music h2 {
   margin-top: 100px;
 }
+#Music iframe {
+  width: 600px;
+  height: 337.5px;
+}
 
+@media(max-width: 600px) {
+  #Music iframe {
+    width: 100%;
+    height: 56.4971751412vw;
+  }
+}
+@media(max-width: 450px) {
+  #Music h2 {
+    margin-top: 50px;
+  }
+  #Music .band-camp-btn {
+    margin-bottom: 50px;
+  }
+}
 .musicVideoOne {
   margin: 50px auto 0;
   display: block;
@@ -222,6 +259,15 @@ html {
   height: 500px;
 }
 
+@media(max-width: 768px) {
+  #Photos {
+    height: 300px;
+  }
+
+  .carousel-cell img {
+    height: 300px;
+  }
+}
 .flickity-prev-next-button {
   width: 100px;
   height: 100px;
@@ -243,14 +289,13 @@ html {
 }
 
 #Contact {
-  height: 600px;
   background: #435770;
   color: white;
   display: inline-block;
   width: 100vw;
 }
 #Contact h2 {
-  margin-top: 130px;
+  margin-top: 100px;
 }
 
 .contact-container {
@@ -262,6 +307,7 @@ html {
   width: 264px;
 }
 .contact-container p {
+  display: none;
   font-size: 16px;
   font-weight: 300;
   margin-top: 50px;
@@ -270,10 +316,26 @@ html {
   color: white;
   font-weight: 400;
 }
-.contact-container .contact-social {
-  margin-top: 50px;
+
+.booking-btn {
+  display: block;
+  margin: 40px auto 40px;
+  border: 2px solid white;
+  width: 300px;
+  height: 40px;
+  line-height: 35px;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+.booking-btn:hover {
+  box-shadow: 0 4px 8px 0 rgba(250, 250, 250, 0.2), 0 0px 20px 1px rgba(250, 250, 250, 0.1);
 }
 
+.contact-social {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
 .contact-social a {
   color: white;
   font-size: 40px;
@@ -283,6 +345,19 @@ html {
   color: rgba(250, 250, 250, 0.8);
 }
 
+@media(max-width: 425px) {
+  #Contact h2 {
+    margin-top: 50px;
+  }
+  #Contact .contact-social {
+    margin-bottom: 50px;
+  }
+}
+@media(max-width: 320px) {
+  .contact-social a {
+    font-size: 30px;
+  }
+}
 footer {
   height: 300px;
   background: white;
@@ -319,4 +394,28 @@ footer .footer-nav a:hover {
 footer .footer-ref span {
   margin: 0 30px 0;
   color: rgba(0, 0, 0, 0.4);
+}
+
+@media(max-width: 600px) {
+  footer {
+    height: 200px;
+    text-align: center;
+  }
+  footer .footer-nav {
+    display: none;
+  }
+  footer .footer-ref {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer-ref span {
+    margin: 10px;
+  }
 }
