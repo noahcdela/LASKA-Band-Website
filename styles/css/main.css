@@ -29,6 +29,7 @@ html {
 @media (max-width: 425px) {
   .fog-container {
     height: 400px;
+    background-attachment: inherit;
   }
 
   .fog-container .header-nav {
