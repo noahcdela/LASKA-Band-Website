@@ -126,6 +126,7 @@ html
   width: 100vw
   h2
     margin-top: 100px
+    margin-bottom: 0px
   .events-list
     margin-top: 50px
 
@@ -138,11 +139,21 @@ html
   color: $bg-blue
   max-width: 620px
   margin: 0 auto
+  //border: 1px solid red
   p
     margin: 0 10px 12px
 
+.google-content
+  width: 100%
+  border: none
+  height: 400px
+
+@media(max-width: 450px)
+  .google-content
+    height: 510px
+
 .facebook-events-btn
-  margin: 50px auto 100px
+  margin: 0px auto 100px
   display: block
   width: 200px
   text-align: center
