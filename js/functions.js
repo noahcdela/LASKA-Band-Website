@@ -35,12 +35,25 @@ $(function(){
     });
   });
 
-  // LASKA logo hero parallax
   $(window).scroll(function(){
-    var wScroll = $(this).scrollTop();
+
+    var scroll = $(this).scrollTop();
+    //var header = $('header');
+    var aboutSection = $('#About');
+
+    // LASKA logo hero parallax
     $('.logo').css({
-      'transform' : 'translate(0px, '+ wScroll /2 +'%)'
+      'transform' : 'translate(0px, '+ scroll /2 +'%)'
     });
+
+    if (scroll >= 500) {
+        //aboutSection.css({"background":"pink"});
+        //header.removeClass('clearHeader').addClass("darkHeader");
+    } else {
+        //aboutSection.css({"background":"blue"});
+        //header.removeClass("darkHeader").addClass('clearHeader');
+    }
+
   });
 
   (function($) {

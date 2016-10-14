@@ -11,6 +11,32 @@ html {
   display: none;
 }
 
+.side-nav {
+  position: fixed;
+  border: 2px solid pink;
+  width: 100vw;
+  height: 50px;
+  display: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
+  z-index: 1;
+}
+.side-nav .left-sideNav {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  border: 2px solid red;
+}
+.side-nav .right-sideNav {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  border: 2px solid red;
+}
+
 .fog-container {
   position: relative;
   height: 600px;
@@ -72,15 +98,14 @@ html {
   margin-right: 3vw;
 }
 .header-nav a {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
   opacity: 80%;
-  -webkit-transition: 0.1s ease-in-out;
-  transition: 0.1s ease-in-out;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 .header-nav a:hover {
   color: black;
-  border-bottom: 5px solid black;
 }
 
 .section-heading {

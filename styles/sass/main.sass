@@ -12,6 +12,28 @@ html
 .sr-only
   display: none
 
+/////////////* SIDE NAV *//////////////
+.side-nav
+  position: fixed
+  border: 2px solid pink
+  width: 100vw
+  height: 50px
+  //display: flex
+  display: none
+
+  justify-content: space-between
+  align-items: center
+  z-index: 1
+
+  .left-sideNav
+    transform: rotate(-90deg)
+    border: 2px solid red
+
+  .right-sideNav
+    transform: rotate(90deg)
+    border: 2px solid red
+
+/////////////* HERO HEADER */////////////
 .fog-container
   position: relative
   height: 600px
@@ -51,7 +73,6 @@ html
   margin-top: -40px
 
 .header-nav
-  //background: pink
   display: flex
   justify-content: space-between
   height: 10vh
@@ -64,13 +85,13 @@ html
     a
       margin-right: 3vw
   a
-    color: rgba(0,0,0,0.8)
+    color: rgba(0,0,0,0.6)
     text-decoration: none
     opacity: 80%
-    transition: .1s ease-in-out
+    transition: .1s
     &:hover
       color: rgba(0,0,0,1)
-      border-bottom: 5px solid black
+      //border-bottom: 5px solid black
 
 .section-heading
   font-weight: 300
@@ -78,6 +99,7 @@ html
   text-transform: uppercase
   text-align: center
 
+////////////* ABOUT SECTION *////////////
 #About
   //height: 700px
   background: $bg-blue
@@ -120,6 +142,7 @@ html
   font-weight: 300
   display: none
 
+////////////* SHOWS SECTION *////////////
 #Shows
   background: white
   display: inline-block
@@ -139,7 +162,6 @@ html
   color: $bg-blue
   max-width: 620px
   margin: 0 auto
-  //border: 1px solid red
   p
     margin: 0 10px 12px
 
@@ -164,7 +186,6 @@ html
   text-decoration: none
   &:hover
     box-shadow: 0 3px 20px 0 rgba(194,208,244,0.8)
-    //cursor: pointer
 
 .band-camp-btn
   display: block
@@ -181,8 +202,8 @@ html
   &:hover
     box-shadow: 0 0px 20px 0 rgba(158,204,204,0.3)
 
+////////////* MUSIC SECTION *////////////
 #Music
-  //height: 700px
   background: $bg-blue
   color: white
   display: inline-block
@@ -207,7 +228,6 @@ html
     .band-camp-btn
       margin-bottom: 50px
 
-
 .musicVideoOne
   margin: 50px auto 0
   display: block
@@ -216,9 +236,7 @@ html
   &:hover
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 40px 0 rgba(0, 0, 0, 0.3)
 
-//#Photos
-  height: 500px
-
+////////////* PHOTOS SECTION *////////////
 .carousel
   background: #EEE
 
@@ -228,20 +246,6 @@ html
   img
     display: block
     height: 500px
-
-//@media screen and (min-width: 768px)
-  #Photos
-    height: 300px
-
-  //.carousel-cell img
-    height: 300px
-
-  //.carousel-cell
-    margin-right: 5px
-    overflow: hidden
-    img
-      display: block
-      height: 500px
 
 @media(max-width: 768px)
   #Photos
@@ -266,8 +270,8 @@ html
   display: none
   bottom: 0px
 
+////////////* CONTACT SECTION *////////////
 #Contact
-  //height: 600px
   background: $bg-blue
   color: white
   display: inline-block
@@ -325,6 +329,7 @@ html
     a
       font-size: 30px
 
+////////////* FOOTER *////////////
 footer
   height: 300px
   background: white
