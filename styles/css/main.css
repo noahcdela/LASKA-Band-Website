@@ -252,10 +252,6 @@ html {
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 40px 0 rgba(0, 0, 0, 0.3);
 }
 
-#Photos {
-  height: 500px;
-}
-
 .carousel {
   background: #EEE;
 }

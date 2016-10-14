@@ -6,6 +6,35 @@ $(function(){
     fadeInLogoHero()
   })
 
+  var $carousel = $('.carousel').flickity({
+    wrapAround: true,
+    imagesLoaded: true,
+    percentPosition: false,
+    initialIndex: 2,
+    arrowShape: {
+      x0: 15,
+      x1: 60, y1: 45,
+      x2: 70, y2: 45,
+      x3: 25
+    }
+  });
+
+  var $imgs = $carousel.find('.carousel-cell img');
+  // get transform property
+  var docStyle = document.documentElement.style;
+  var transformProp = typeof docStyle.transform == 'string' ?
+    'transform' : 'WebkitTransform';
+  // get Flickity instance
+  var flkty = $carousel.data('flickity');
+
+  $carousel.on( 'scroll.flickity', function() {
+    flkty.slides.forEach( function( slide, i ) {
+      var img = $imgs[i];
+      var x = ( slide.target + flkty.x ) * -1/3;
+      img.style[ transformProp ] = 'translateX(' + x  + 'px)';
+    });
+  });
+
   // LASKA logo hero parallax
   $(window).scroll(function(){
     var wScroll = $(this).scrollTop();
