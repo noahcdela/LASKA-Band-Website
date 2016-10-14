@@ -40,6 +40,7 @@ html {
   }
 }
 .logo {
+  opacity: 0;
   height: 80px;
   width: 100%;
   background-image: url(../../images/laska-logo.png);
@@ -62,6 +63,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  opacity: 0;
 }
 .header-nav .left-nav a {
   margin-left: 3vw;

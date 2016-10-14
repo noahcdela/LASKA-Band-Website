@@ -4,16 +4,15 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
     meta(charset="UTF-8")
     title Laska the Band
-    link(rel='stylesheet', type='text/css', href='bower_components/normalize-css/normalize.css')
+    link(rel='stylesheet', type='text/css', href='styles/css/normalize.css')
     link(rel='stylesheet', type='text/css', href='styles/css/main.css')
-    link(rel='stylesheet', type='text/css', href='bower_components/Ionicons/css/ionicons.min.css')
+    link(rel='stylesheet', type='text/css', href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')
     link(rel='stylesheet', href='https://npmcdn.com/flickity@2.0/dist/flickity.min.css')
-    link(rel='stylesheet', href='styles/css/animate.min.css')
     
   body#Home 
     header.fog-container
       h1.sr-only LASKA
-      nav.header-nav.wow.fadeIn(data-wow-duration="1s" data-wow-delay="2s")
+      nav.header-nav
         .left-nav
           a(href="#About").page-scroll About
         .right-nav
@@ -21,7 +20,7 @@ html
           a(href="#Music").page-scroll Music
           a(href="#Photos").page-scroll Photos
           a(href="#Contact").page-scroll Contact
-      .logo.wow.fadeIn(data-wow-duration="5s")
+      .logo
     
     section#About
       .about-contianer
@@ -31,11 +30,11 @@ html
           img(src="images/brail-logo.png" data-wow-delay="1s").wow.fadeIn.brail-logo
           
           .laska-letters
-            span(data-wow-delay="1s").wow.fadeIn L 
-            span(data-wow-delay="1.2s").wow.fadeIn A
-            span(data-wow-delay="1.4s").wow.fadeIn S
-            span(data-wow-delay="1.6s").wow.fadeIn K
-            span(data-wow-delay="1.8s").wow.fadeIn A
+            span L 
+            span A
+            span S
+            span K
+            span A
                     
     section#Shows
       .shows-container
@@ -100,11 +99,11 @@ html
           a(href="") here 
           | to book for your next private party, big event, wedding, or other affairs! We are available as acoustic trio or full band for bigger events.
         .contact-social
-          a(href="https://www.facebook.com/laskatheband/?fref=ts", target="blank" data-wow-delay="1s").ion-social-facebook.wow.fadeIn
-          a(href="https://www.instagram.com/laskatheband/", target="blank" data-wow-delay="1.2s").ion-social-instagram.wow.fadeIn
-          a(href="https://twitter.com/laskatheband", target="blank" data-wow-delay="1.4s").ion-social-twitter.wow.fadeIn
-          a(href="https://www.youtube.com/channel/UCGY04xgSY0ol51_B8MG-rug", target="blank" data-wow-delay="1.6s").ion-social-youtube.wow.fadeIn
-          a(href="https://itunes.apple.com/us/artist/laska/id305321834", target="blank" data-wow-delay="1.8s").ion-music-note.wow.fadeIn
+          a(href="https://www.facebook.com/laskatheband/?fref=ts", target="blank").ion-social-facebook
+          a(href="https://www.instagram.com/laskatheband/", target="blank").ion-social-instagram
+          a(href="https://twitter.com/laskatheband", target="blank").ion-social-twitter
+          a(href="https://www.youtube.com/channel/UCGY04xgSY0ol51_B8MG-rug", target="blank").ion-social-youtube
+          a(href="https://itunes.apple.com/us/artist/laska/id305321834", target="blank").ion-music-note
           
     footer
       .footer-nav
@@ -119,10 +118,7 @@ html
         span Copyright LASKA © 2016
         span Website by Noah Delagardelle
         
-    script(src="bower_components/jquery/dist/jquery.min.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    script(src='js/jquery.easing.min.js')
     script(src="js/functions.js")
     script(src='https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js')
-    script(src='js/jquery.easing.min.js')
-    script(src='js/wow.min.js')
-    script.
-      new WOW().init();
