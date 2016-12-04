@@ -19,6 +19,32 @@ $(function(){
     }
   });
 
+  $('.nav-menu-trigger').click(function(){
+    $('.main-nav').toggleClass('menu-active');
+  });
+
+  $('a, section, footer').on('click', function(){
+    $('.main-nav').removeClass('menu-active');
+  })
+
+  var morseLetters = $('.laska-letters > span');
+
+  $('.brail-logo').hover(
+    function() {
+      for(i=0; i<morseLetters.length; i++){
+        $(morseLetters[i]).delay(150*i).animate({
+          "opacity":".7"
+        }, 500);
+      }
+    }, function() {
+      for(i=0; i<morseLetters.length; i++){
+        $(morseLetters[i]).delay(150*i).animate({
+          "opacity":"0"
+        }, 500);
+      }
+    }
+  );
+
   var $imgs = $carousel.find('.carousel-cell img');
   // get transform property
   var docStyle = document.documentElement.style;
@@ -26,7 +52,7 @@ $(function(){
     'transform' : 'WebkitTransform';
   // get Flickity instance
   var flkty = $carousel.data('flickity');
-
+/*
   $carousel.on( 'scroll.flickity', function() {
     flkty.slides.forEach( function( slide, i ) {
       var img = $imgs[i];
@@ -34,7 +60,8 @@ $(function(){
       img.style[ transformProp ] = 'translateX(' + x  + 'px)';
     });
   });
-
+*/
+/*
   $(window).scroll(function(){
 
     var scroll = $(this).scrollTop();
@@ -46,16 +73,8 @@ $(function(){
       'transform' : 'translate(0px, '+ scroll /2 +'%)'
     });
 
-    if (scroll >= 500) {
-        //aboutSection.css({"background":"pink"});
-        //header.removeClass('clearHeader').addClass("darkHeader");
-    } else {
-        //aboutSection.css({"background":"blue"});
-        //header.removeClass("darkHeader").addClass('clearHeader');
-    }
-
   });
-
+*/
   (function($) {
       "use strict"; // Start of use strict
 
@@ -63,7 +82,7 @@ $(function(){
       $('a.page-scroll').bind('click', function(event) {
           var $anchor = $(this);
           $('html, body').stop().animate({
-              scrollTop: ($($anchor.attr('href')).offset().top - 0)
+              scrollTop: ($($anchor.attr('href')).offset().top - 50)
           }, 1250, 'easeInOutExpo');
           event.preventDefault();
       });

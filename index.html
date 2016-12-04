@@ -9,18 +9,17 @@
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css">
   </head>
-  <nav>
-    <div class="side-nav">
-      <div class="left-sideNav"><a href="#Home" class="page-scroll">Home</a><a href="#Shows" class="page-scroll">Shows</a></div>
-      <div class="right-sideNav"><a href="#Music" class="page-scroll">Music</a><a href="#Photos" class="page-scroll">Photos</a><a href="#Contact" class="page-scroll">Contact</a></div>
-    </div>
-  </nav>
   <body id="Home"> 
+    <nav class="side-nav nav-left"><a href="#Home" class="page-scroll">Home</a><a href="#Shows" class="page-scroll">Shows</a></nav>
+    <nav class="side-nav nav-right"><a href="#Music" class="page-scroll">Music</a><a href="#Photos" class="page-scroll">Photos</a><a href="#Contact" class="page-scroll">Contact</a></nav>
     <header class="fog-container">
       <h1 class="sr-only">LASKA</h1>
-      <nav class="header-nav">
-        <div class="left-nav"><a href="#About" class="page-scroll">About</a></div>
-        <div class="right-nav"><a href="#Shows" class="page-scroll">Shows</a><a href="#Music" class="page-scroll">Music</a><a href="#Photos" class="page-scroll">Photos</a><a href="#Contact" class="page-scroll">Contact</a></div>
+      <nav class="header-nav"><a href="#Home" class="page-scroll nav-logo"><span>LASKA </span>Band</a>
+        <button type="button" class="nav-menu-trigger toggle-menue"><span></span><span></span><span></span></button>
+        <div class="main-nav">
+          <div class="nav-section"><a href="#About" class="page-scroll">About</a></div>
+          <div class="nav-section"><a href="#Shows" class="page-scroll">Shows</a><a href="#Music" class="page-scroll">Music</a><a href="#Photos" class="page-scroll">Photos</a><a href="#Contact" class="page-scroll">Contact</a></div>
+        </div>
       </nav>
       <div class="logo"></div>
     </header>
@@ -28,8 +27,8 @@
       <div class="about-contianer">
         <h2 class="section-heading">About</h2>
         <p>LASKA (formerly The Morton Sisters) from Eau Claire, WI provide the perfect soundtrack for embracing the beauty in pain.  Songwriting sisters Hannah Mae, Bex and Mookie weave influences of Alternative, Americana and Desert Rock with raw emotion in their songs. They are all confident vocalists knowing what each will bring to the table to sing lead, but also support one another with beautifully hard-hitting harmonies.  Topping off the harmonic sheen is an instrumental arsenal including violin, guitar, banjo, mandolin, ukulele, and cello.  Combine this with an un-apologetic rhythm section in tow, including Evan Middlesworth on electric guitar, Zach Brawford on drums, and Ethan Schmidt on Bass, and the whole of this band is far greater than the sum of its parts.</p>
-        <div class="brail-container"><img src="images/brail-logo.png" data-wow-delay="1s" class="wow fadeIn brail-logo">
-          <div class="laska-letters"><span>L </span><span>A</span><span>S</span><span>K</span><span>A</span></div>
+        <div class="brail-container"><img src="images/brail-logo.png" data-wow-delay="1s" class="brail-logo">
+          <div class="laska-letters"><span data-identifier="i">L </span><span data-identifier="i">A</span><span data-identifier="i">S</span><span data-identifier="i">K</span><span data-identifier="i">A</span></div>
         </div>
       </div>
     </section>

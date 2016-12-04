@@ -2,9 +2,13 @@
 
 $bg-blue: #435770
 $light-blue: #C2D0F4
+$black: #1A222C
 
 *
   box-sizing: border-box
+
+textarea, input, button
+  outline: none
 
 html
   font-family: 'Lato', sans-serif
@@ -14,24 +18,29 @@ html
 
 /////////////* SIDE NAV *//////////////
 .side-nav
-  position: fixed
-  border: 2px solid pink
-  width: 100vw
-  height: 50px
-  //display: flex
   display: none
-
-  justify-content: space-between
-  align-items: center
+  position: fixed
+  //border: 1px solid blue
+  height: 50px
   z-index: 1
+  top: 40vh
+  margin: 1.2vw
+  opacity: .2
+  text-transform: uppercase
+  font-size: .7em
+  a
+    color: white
+    text-decoration: none
+    margin-right: 20px
+    padding-right: 5px
 
-  .left-sideNav
-    transform: rotate(-90deg)
-    border: 2px solid red
+.nav-left
+  transform: rotate(-90deg)
+  left: -20px
 
-  .right-sideNav
-    transform: rotate(90deg)
-    border: 2px solid red
+.nav-right
+  transform: rotate(90deg)
+  right: -60px
 
 /////////////* HERO HEADER */////////////
 .fog-container
@@ -44,6 +53,10 @@ html
     attachment: fixed
     repeat: no-repeat
 
+@media (max-width: 768px)
+  .fog-container
+    margin-top: 50px
+
 @media (min-width: 1440px)
   .fog-container
     height: 800px
@@ -54,8 +67,6 @@ html
     background-attachment: inherit
 
   .fog-container
-    .header-nav
-      display: none
     .logo
       height: 60px
 
@@ -73,17 +84,12 @@ html
   margin-top: -40px
 
 .header-nav
-  display: flex
-  justify-content: space-between
   height: 10vh
   align-items: center
   opacity: 0
-  .left-nav
+  .nav-section
     a
-      margin-left: 3vw
-  .right-nav
-    a
-      margin-right: 3vw
+      margin: 0px 1.5vw
   a
     color: rgba(0,0,0,0.6)
     text-decoration: none
@@ -91,7 +97,85 @@ html
     transition: .1s
     &:hover
       color: rgba(0,0,0,1)
-      //border-bottom: 5px solid black
+      //border-bottom: 5px solid $black
+
+  .main-nav
+    display: flex
+    justify-content: space-between
+    height: 10vh
+    align-items: center
+    padding: 0px 1.5vw
+
+  .nav-logo
+    display: none
+    height: 20px
+    span
+      letter-spacing: .2em
+
+  .nav-menu-trigger
+    display: none
+
+@media (max-width: 768px)
+  .header-nav
+    background: rgba(white, .9)
+    border-bottom: 1px solid rgba($black, .1)
+    width: 100%
+    position: fixed
+    top: 0
+    height: 50px
+    z-index: 100
+    .main-nav
+      display: block
+      margin-top: 50px
+      padding-top: 10px
+      padding-bottom: 10px
+      height: auto
+      background: rgba(white,.9)
+      position: absolute
+      top: 0
+      width: 100%
+      opacity: 0
+      pointer-events: none
+      transition: 300ms ease
+      &.menu-active
+        opacity: 1
+        pointer-events: auto
+
+    .nav-section
+      display: block
+      a
+        display: block
+        text-align: center
+        margin: 0px
+        padding: 10px 0px
+
+    .nav-logo
+      display: block
+      line-height: 50px
+      font-size: 18px
+      margin-left: 20px
+    .nav-menu-trigger
+      display: block
+      position: absolute
+      border: none
+      height: 30px
+      width: 30px
+      right: 20px
+      top: 10px
+      padding: 0px
+      background: transparent
+      span
+        display: block
+        height: 2px
+        width: 100%
+        background: rgba($black, .6)
+        margin: 3px 0px
+        float: right
+      span:nth-child(1)
+        width: 90%
+      span:nth-child(2)
+        width: 85%
+
 
 .section-heading
   font-weight: 300
@@ -101,21 +185,19 @@ html
 
 ////////////* ABOUT SECTION *////////////
 #About
-  //height: 700px
   background: $bg-blue
   color: white
   display: inline-block
   width: 100vw
   position: relative
-  //display: none
 
 .about-contianer
   max-width: 620px
   margin: 0 auto
   p
     font-size: 16px
-    margin: 50px 10px 0
     font-weight: 300
+    line-height: 1.5em
   h2
     margin-top: 100px
 
@@ -124,13 +206,19 @@ html
     h2
       margin-top: 50px
 
+@media (max-width: 786px)
+  .about-contianer p
+    margin: 50px 20px 0
+
 .brail-container
-  //border: 5px dotted red
   width: 200px
   margin: 50px auto 50px
   position: relative
   img
     width: 200px
+    transition: 800ms ease
+    &:hover
+      filter: drop-shadow(0px 0px 5px rgba(255,255,255,.5))
 
 .laska-letters
   position: absolute
@@ -138,9 +226,14 @@ html
   left: -40px
   display: flex
   flex-direction: column
+  line-height: 40px
   font-size: 35px
   font-weight: 300
-  display: none
+  span
+    opacity: 0
+    transition: 800ms
+    &.morse-display
+      opacity: .7
 
 ////////////* SHOWS SECTION *////////////
 #Shows
@@ -151,7 +244,7 @@ html
     margin-top: 100px
     margin-bottom: 0px
   .events-list
-    margin-top: 50px
+    margin: 50px 10px
 
 @media(max-width: 450px)
   #Shows
@@ -163,7 +256,7 @@ html
   max-width: 620px
   margin: 0 auto
   p
-    margin: 0 10px 12px
+    margin: 0 20px 12px
 
 .google-content
   width: 100%
@@ -219,7 +312,7 @@ html
   #Music
     iframe
       width: 100%
-      height: (100vw)/1.77
+      height: calc((100vw)/1.77)
 
 @media(max-width: 450px)
   #Music
@@ -237,18 +330,27 @@ html
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 40px 0 rgba(0, 0, 0, 0.3)
 
 ////////////* PHOTOS SECTION *////////////
+#Photos
+  z-index: 10
+  position: relative
+  height: 600px
+
 .carousel
   background: #EEE
+  height: 600px
 
 .carousel-cell
-  margin-right: 5px
+  margin-right: 2px
   overflow: hidden
   img
     display: block
-    height: 500px
+    height: 600px
 
 @media(max-width: 768px)
   #Photos
+    height: 300px
+
+  .carousel
     height: 300px
 
   .carousel-cell
@@ -345,7 +447,7 @@ footer
       text-decoration: none
       color: rgba(0,0,0,0.4)
       &:hover
-        color: black
+        color: $black
 
   .footer-ref
     span

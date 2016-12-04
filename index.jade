@@ -8,28 +8,36 @@ html
     link(rel='stylesheet', type='text/css', href='styles/css/main.css')
     link(rel='stylesheet', type='text/css', href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')
     link(rel='stylesheet', href='https://npmcdn.com/flickity@2/dist/flickity.css')
-    
-  nav
-    .side-nav
-      .left-sideNav
-        a(href="#Home").page-scroll Home
-        a(href="#Shows").page-scroll Shows
-      .right-sideNav
-        a(href="#Music").page-scroll Music
-        a(href="#Photos").page-scroll Photos
-        a(href="#Contact").page-scroll Contact
-    
+  
   body#Home 
+  
+    nav.side-nav.nav-left
+      a(href="#Home").page-scroll Home
+      a(href="#Shows").page-scroll Shows
+    nav.side-nav.nav-right
+      a(href="#Music").page-scroll Music
+      a(href="#Photos").page-scroll Photos
+      a(href="#Contact").page-scroll Contact
+  
     header.fog-container
       h1.sr-only LASKA
       nav.header-nav
-        .left-nav
-          a(href="#About").page-scroll About
-        .right-nav
-          a(href="#Shows").page-scroll Shows
-          a(href="#Music").page-scroll Music
-          a(href="#Photos").page-scroll Photos
-          a(href="#Contact").page-scroll Contact
+        a(href="#Home").page-scroll.nav-logo
+          span LASKA 
+          | Band
+        button(type="button" class="nav-menu-trigger").toggle-menue
+          span
+          span
+          span
+          
+        .main-nav
+          .nav-section
+            a(href="#About").page-scroll About
+          .nav-section
+            a(href="#Shows").page-scroll Shows
+            a(href="#Music").page-scroll Music
+            a(href="#Photos").page-scroll Photos
+            a(href="#Contact").page-scroll Contact
       .logo
     
     section#About
@@ -37,14 +45,14 @@ html
         h2.section-heading About
         p LASKA (formerly The Morton Sisters) from Eau Claire, WI provide the perfect soundtrack for embracing the beauty in pain.  Songwriting sisters Hannah Mae, Bex and Mookie weave influences of Alternative, Americana and Desert Rock with raw emotion in their songs. They are all confident vocalists knowing what each will bring to the table to sing lead, but also support one another with beautifully hard-hitting harmonies.  Topping off the harmonic sheen is an instrumental arsenal including violin, guitar, banjo, mandolin, ukulele, and cello.  Combine this with an un-apologetic rhythm section in tow, including Evan Middlesworth on electric guitar, Zach Brawford on drums, and Ethan Schmidt on Bass, and the whole of this band is far greater than the sum of its parts.
         .brail-container
-          img(src="images/brail-logo.png" data-wow-delay="1s").wow.fadeIn.brail-logo
+          img(src="images/brail-logo.png" data-wow-delay="1s").brail-logo
           
           .laska-letters
-            span L 
-            span A
-            span S
-            span K
-            span A
+            span(data-identifier='i') L 
+            span(data-identifier='i') A
+            span(data-identifier='i') S
+            span(data-identifier='i') K
+            span(data-identifier='i') A
                     
     section#Shows
       .shows-container
