@@ -9,7 +9,7 @@ html
     link(rel='stylesheet', type='text/css', href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')
     link(rel='stylesheet', href='https://npmcdn.com/flickity@2/dist/flickity.css')
   
-  body#Home 
+  body#Home
   
     nav.side-nav.nav-left
       a(href="#Home").page-scroll Home
@@ -58,17 +58,16 @@ html
       .shows-container
         h2.section-heading Shows
         .events-list
-          iframe(class="google-content" src='https://docs.google.com/document/d/1bfj48ezTJ3RkPC_1hhKyAe0cJH-fcnsBNtlLZyQB2hI/pub?embedded=true')
-        //
-          p 
-            b September 23 
-            | Uncommon Ground – Chicago, IL
+          iframe(class="google-content" src='https://docs.google.com/document/d/1ijlVT55cILj5rEo3W7g2B32PmQdqkH59pMN1P2leSjE/pub?embedded=true')
 
-      a(href="https://www.facebook.com/laskatheband/events" target="blank").facebook-events-btn facebook events
+        a(href="https://www.facebook.com/laskatheband/events" target="blank").facebook-events-btn facebook events
         
     section#Music
-      h2.section-heading Music
-      iframe(src='https://www.youtube.com/embed/OcoPOUVsJIA', frameborder='0', allowfullscreen='').musicVideoOne
+      .music-container
+        h2.section-heading Music
+        iframe(class='music-video' src='https://www.youtube.com/embed/OcoPOUVsJIA', frameborder='0', allowfullscreen='').musicVideoOne
+        iframe(class='soundcloud' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/295394310&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true', scrolling='no', frameborder='no', )
+        iframe(class='soundcloud' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/278505013&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true', scrolling='no', frameborder='no', )
       
       a(href="https://laska1.bandcamp.com/track/not-that-great" target="blank").band-camp-btn.wow.pulse band camp
         

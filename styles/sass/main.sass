@@ -16,6 +16,9 @@ html
 .sr-only
   display: none
 
+h2
+  margin: 50px 0 50px
+
 /////////////* SIDE NAV *//////////////
 .side-nav
   display: none
@@ -176,7 +179,6 @@ html
       span:nth-child(2)
         width: 85%
 
-
 .section-heading
   font-weight: 300
   font-size: 19px
@@ -198,8 +200,6 @@ html
     font-size: 16px
     font-weight: 300
     line-height: 1.5em
-  h2
-    margin-top: 100px
 
 @media (min-width: 425px)
   .about-contianer
@@ -240,35 +240,28 @@ html
   background: white
   display: inline-block
   width: 100vw
-  h2
-    margin-top: 100px
-    margin-bottom: 0px
-  .events-list
-    margin: 50px 10px
-
-@media(max-width: 450px)
-  #Shows
-    h2
-      margin-top: 50px
 
 .shows-container
-  color: $bg-blue
   max-width: 620px
   margin: 0 auto
-  p
-    margin: 0 20px 12px
 
 .google-content
-  width: 100%
+  padding-left: 20px
+  display: block
   border: none
+  box-sizing: border-box
+  width: 100%
   height: 400px
 
-@media(max-width: 450px)
+@media (max-width: 425px)
   .google-content
-    height: 510px
+    padding: 0px
+    height: 600px
+    transform: scale(.94)
+
 
 .facebook-events-btn
-  margin: 0px auto 100px
+  margin: 20px auto 50px
   display: block
   width: 200px
   text-align: center
@@ -301,12 +294,27 @@ html
   color: white
   display: inline-block
   width: 100vw
-  h2
-    margin-top: 100px
 
+.music-container
+  max-width: 620px
+  margin: 0 auto
   iframe
-    width: 600px
-    height: 337.5px
+    margin-bottom: 30px
+    transition: .2s ease-in-out
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    &:hover
+      box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 40px 0 rgba(0, 0, 0, 0.3)
+
+.music-video
+  margin: 50px auto 0
+  display: block
+  width: 100%
+  height: 337.5px
+
+.soundcloud
+  display: block
+  width: 100%
+  height: 200px
 
 @media(max-width: 600px)
   #Music
@@ -314,20 +322,15 @@ html
       width: 100%
       height: calc((100vw)/1.77)
 
+    .soundcloud
+      padding: 0px
+      margin-top: 10px
+
 @media(max-width: 450px)
   #Music
-    h2
-      margin-top: 50px
     .band-camp-btn
       margin-bottom: 50px
 
-.musicVideoOne
-  margin: 50px auto 0
-  display: block
-  transition: .2s ease-in-out
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-  &:hover
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 40px 0 rgba(0, 0, 0, 0.3)
 
 ////////////* PHOTOS SECTION *////////////
 #Photos
@@ -378,8 +381,6 @@ html
   color: white
   display: inline-block
   width: 100vw
-  h2
-    margin-top: 100px
 
 .contact-container
   max-width: 600px
