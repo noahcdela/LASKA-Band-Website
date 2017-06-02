@@ -7,7 +7,7 @@
 		"uuidString": "70A7D128-EEA5-4009-AF5F-9684C5B94CAF"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25813",
 "files": {
 	"\/CNAME": {
 		"ft": 8192,
@@ -21,7 +21,10 @@
 		"oA": 0,
 		"oAP": "\/images\/brail-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/fog-bg.jpg": {
 		"ft": 16384,
@@ -29,7 +32,9 @@
 		"oA": 0,
 		"oAP": "\/images\/fog-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/laska-logo.png": {
 		"ft": 32768,
@@ -37,7 +42,10 @@
 		"oA": 0,
 		"oAP": "\/images\/laska-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/logo-white.png": {
 		"ft": 32768,
@@ -45,7 +53,10 @@
 		"oA": 0,
 		"oAP": "\/images\/logo-white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/photo-7.jpg": {
 		"ft": 16384,
@@ -53,7 +64,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo-7.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo1.jpg": {
 		"ft": 16384,
@@ -61,7 +74,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo10.jpg": {
 		"ft": 16384,
@@ -69,7 +84,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo11.jpg": {
 		"ft": 16384,
@@ -77,7 +94,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo12.jpg": {
 		"ft": 16384,
@@ -85,7 +104,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo12.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo13.jpg": {
 		"ft": 16384,
@@ -93,7 +114,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo13.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo14.jpg": {
 		"ft": 16384,
@@ -101,7 +124,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo14.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo15.jpg": {
 		"ft": 16384,
@@ -109,7 +134,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo15.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo2.jpg": {
 		"ft": 16384,
@@ -117,7 +144,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo3.jpg": {
 		"ft": 16384,
@@ -125,7 +154,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo3.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo4.jpg": {
 		"ft": 16384,
@@ -133,7 +164,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo4.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo5.jpg": {
 		"ft": 16384,
@@ -141,7 +174,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo5.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo6.jpg": {
 		"ft": 16384,
@@ -149,7 +184,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo6.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo7.jpg": {
 		"ft": 16384,
@@ -157,7 +194,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo7.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo8.jpg": {
 		"ft": 16384,
@@ -165,7 +204,9 @@
 		"oA": 0,
 		"oAP": "\/images\/photo8.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo9.jpg": {
 		"ft": 16384,
@@ -173,21 +214,15 @@
 		"oA": 0,
 		"oAP": "\/images\/photo9.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
-		},
-	"\/index.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/js\/functions.js": {
 		"ft": 64,
@@ -942,6 +977,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -960,6 +999,10 @@
 			},
 		"no-class-assign": {
 			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
 			"optionString": ""
 			},
 		"no-cond-assign": {
@@ -1162,6 +1205,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -1239,6 +1286,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1438,6 +1489,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -1482,9 +1537,17 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -1579,6 +1642,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -2025,7 +2092,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2048,14 +2116,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -2118,7 +2178,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

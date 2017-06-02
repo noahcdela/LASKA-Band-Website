@@ -61,7 +61,7 @@ $(function(){
     });
   });
 */
-/*
+
   $(window).scroll(function(){
 
     var scroll = $(this).scrollTop();
@@ -74,7 +74,7 @@ $(function(){
     });
 
   });
-*/
+
   (function($) {
       "use strict"; // Start of use strict
 
