@@ -1,0 +1,157 @@
+// ELEMENTS //
+
+// Mobile
+@media only screen and (max-width: 767px){
+}
+// Tablet
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+}
+// Desktop
+@media only screen and (min-width: 1024px){
+}
+
+:root {
+	font-size: calc(0.5em + 1vw);
+}
+
+@media only screen and (max-width: 767px){
+  :root {
+  	font-size: calc(0.5em + 2vw);
+  }
+}
+
+body {
+  font-family: 'libre_baskervilleregular', serif;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  color: $black;
+}
+
+a {
+  color: $black;
+  //text-decoration: none;
+}
+
+.src-only {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px; width: 1px;
+  margin: -1px; padding: 0; border: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  font-family: 'libre_franklinregular', sans-serif;
+  font-size: 1.25em;
+  width: 100vw;
+  nav {
+    background-color: rgba(#fff,.9);
+    overflow: auto;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      width: 100%;
+      a {
+        width: 100%;
+      }
+    }
+    a {
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+}
+
+.mobile-nav {
+  background-color: #fff;
+  border-bottom: 1px solid gray;
+  height: 2.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.563em;
+  padding-right: 1.563em;
+  .nav-logo {
+    letter-spacing: .09em;
+  }
+}
+
+.nav-toggle {
+  width: 1.5em;
+  height: 100%;
+  border: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  span {
+    display: block;
+    width: 1.5em;
+    height: .15em;
+    background-color: $black;
+    margin: .15em 0;
+  }
+}
+
+// .nav-toggle {
+//   box-sizing: content-box;
+//   width: 1.9em;
+//   height: 1.4em;
+//   margin: 0;
+//   padding: 0;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   //border: 1px solid gray;
+//   padding: .7em 0;
+//   span {
+//     display: block;
+//     width: 1.9em;
+//     height: .18em;
+//     background-color: #4f4f4f;
+//   }
+// }
+
+.home {
+  overflow: auto;
+  background-color: $blue-main;
+  background-image: url('../../images/fog-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .links {
+    font-size: 1.953em;
+    padding-top: 1.25em;
+    width: 10em;
+    display: flex;
+    justify-content: space-around;
+
+    //border: 1px solid blue;
+    a {
+      //color: #FFF;
+      text-decoration: none;
+    }
+  }
+}
+
+.logo {
+  height: 4em;
+  width: 100%;
+  background-image: url('../../images/laska-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
