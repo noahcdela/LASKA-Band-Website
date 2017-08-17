@@ -54,7 +54,8 @@ h2
       height: 60px
 
 .logo
-  opacity: 0
+  //opacity: 0
+
   height: 80px
   width: 100%
   background:
@@ -67,9 +68,11 @@ h2
   margin-top: -40px
 
 .header-nav
-  height: 10vh
+  position: fixed
+  z-index: 100
   align-items: center
-  opacity: 0
+  //opacity: 0
+
   .nav-section
     a
       text-transform: uppercase
@@ -86,10 +89,15 @@ h2
 
   .main-nav
     display: flex
-    justify-content: space-between
+    justify-content: center
     height: 10vh
+    width: 100vw
     align-items: center
-    padding: 0px 1.5vw
+    padding: 0 1.5vw
+    transition: 250ms ease
+    &.nav-scrolled
+      height: 5vh
+      background-color: white
 
   .nav-logo
     display: none
@@ -110,6 +118,7 @@ h2
     height: 50px
     z-index: 100
     .main-nav
+      padding: 0
       display: block
       margin-top: 50px
       padding-top: 10px
@@ -127,12 +136,12 @@ h2
         pointer-events: auto
 
     .nav-section
-      display: block
+      background-color: pink
       a
         display: block
         text-align: center
         margin: 0px
-        padding: 10px 0px
+        padding: 20px 0px
 
     .nav-logo
       display: block
@@ -259,11 +268,10 @@ h2
 .band-camp-btn
   display: block
   width: 200px
-  height: 40px
+  height: 50px
   margin: 50px auto 100px
   text-align: center
-  background: transparentize
-  line-height: 35px
+  line-height: 45px
   border: 2px solid $light-blue
   transition: .2s ease-in-out
   color: $light-blue

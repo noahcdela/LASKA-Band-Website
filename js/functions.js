@@ -2,8 +2,8 @@ $(function(){
 
   $(window).ready(function(){
     // Initialize fadeIn hero functions
-    fadeInNav();
-    fadeInLogoHero()
+    //fadeInNav();
+    //fadeInLogoHero()
   })
 
   var $carousel = $('.carousel').flickity({
@@ -63,6 +63,14 @@ $(function(){
 */
 
   $(window).scroll(function(){
+
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 500) {
+      $('.main-nav').addClass('nav-scrolled');
+    } else {
+      $('.main-nav').removeClass('nav-scrolled');
+    }
 
     var scroll = $(this).scrollTop();
     //var header = $('header');

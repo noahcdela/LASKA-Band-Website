@@ -60,7 +60,6 @@ h2 {
 }
 
 .logo {
-  opacity: 0;
   height: 80px;
   width: 100%;
   background-image: url(../../images/laska-logo.png);
@@ -73,11 +72,11 @@ h2 {
 }
 
 .header-nav {
-  height: 10vh;
+  position: fixed;
+  z-index: 100;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  opacity: 0;
 }
 
 .header-nav .nav-section a {
@@ -90,7 +89,6 @@ h2 {
   color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
   opacity: 80%;
-  -webkit-transition: .1s;
   transition: .1s;
 }
 
@@ -102,14 +100,21 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 10vh;
+  width: 100vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0px 1.5vw;
+  padding: 0 1.5vw;
+  transition: 250ms ease;
+}
+
+.header-nav .main-nav.nav-scrolled {
+  height: 5vh;
+  background-color: white;
 }
 
 .header-nav .nav-logo {
@@ -136,6 +141,7 @@ h2 {
     z-index: 100;
   }
   .header-nav .main-nav {
+    padding: 0;
     display: block;
     margin-top: 50px;
     padding-top: 10px;
@@ -147,7 +153,6 @@ h2 {
     width: 100%;
     opacity: 0;
     pointer-events: none;
-    -webkit-transition: 300ms ease;
     transition: 300ms ease;
   }
   .header-nav .main-nav.menu-active {
@@ -155,13 +160,13 @@ h2 {
     pointer-events: auto;
   }
   .header-nav .nav-section {
-    display: block;
+    background-color: pink;
   }
   .header-nav .nav-section a {
     display: block;
     text-align: center;
     margin: 0px;
-    padding: 10px 0px;
+    padding: 20px 0px;
   }
   .header-nav .nav-logo {
     display: block;
@@ -242,7 +247,6 @@ h2 {
 
 .brail-container img {
   width: 200px;
-  -webkit-transition: 800ms ease;
   transition: 800ms ease;
 }
 
@@ -269,7 +273,6 @@ h2 {
 
 .laska-letters span {
   opacity: 0;
-  -webkit-transition: 800ms;
   transition: 800ms;
 }
 
@@ -314,7 +317,6 @@ h2 {
   text-align: center;
   background: #C2D0F4;
   line-height: 40px;
-  -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
   color: white;
   text-decoration: none;
@@ -327,13 +329,11 @@ h2 {
 .band-camp-btn {
   display: block;
   width: 200px;
-  height: 40px;
+  height: 50px;
   margin: 50px auto 100px;
   text-align: center;
-  background: transparentize;
-  line-height: 35px;
+  line-height: 45px;
   border: 2px solid #C2D0F4;
-  -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
   color: #C2D0F4;
   text-decoration: none;
@@ -357,7 +357,6 @@ h2 {
 
 .music-container iframe {
   margin-bottom: 30px;
-  -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -488,7 +487,6 @@ h2 {
   height: 40px;
   line-height: 35px;
   text-decoration: none;
-  -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
 }
 
