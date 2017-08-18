@@ -1,0 +1,1 @@
+$(function(){$(".nav-toggle").click(function(){$("nav ul").toggleClass("on")}),$("a, section, footer").on("click",function(){$("nav ul").removeClass("on")})});
