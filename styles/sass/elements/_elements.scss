@@ -52,6 +52,7 @@ header {
   font-family: 'libre_franklinregular', sans-serif;
   font-size: 1.25em;
   width: 100vw;
+	z-index: 100;
 }
 
 nav ul {
@@ -104,7 +105,7 @@ nav ul {
 		left: 0;
 		z-index: 100;
 	  background-color: #fff;
-	  box-shadow: 0 0 1em rgba(#000,.1);
+	  box-shadow: 0 0 1em rgba(#435770,.2);
 	  height: 2.5em;
 	  display: flex;
 	  justify-content: space-between;
@@ -128,25 +129,32 @@ nav ul {
 	  span {
 	    display: block;
 	    width: 1.5em;
-	    height: .14em;
+			height: 2px;
 	    background-color: $black;
 	    margin: .15em 0;
 			border-radius: 1em;
-			opacity: .8;
 	  }
+		div {
+			display:  none;
+
+			position: absolute;
+			right: 2.8em;
+			opacity: .8;
+			//text-transform: uppercase;
+		}
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 	.mobile-nav {
 		display: none;
 	}
 	nav {
-		font-size: .8em;
 		overflow: auto;
+		font-size: .8em;
 		ul {
 			list-style: none;
-			width: 60vw;
+			width: 70vw;
 			height: 4em;
 			line-height: 4em;
 			margin: 0 auto;
@@ -191,6 +199,16 @@ nav ul {
 	}
 }
 
+@media only screen and (min-width: 1024px){
+	nav {
+		background-color: pink;
+		font-size: .6em;
+		ul {
+			width: 50vw;
+		}
+	}
+}
+
 .home {
 	overflow: auto;
 	background-color: $blue-main;
@@ -225,6 +243,7 @@ nav ul {
 }
 
 .about {
+	position: relative;
 	background-color: $blue-main;
 	overflow: visible;
 	color: #fff;
@@ -233,7 +252,9 @@ nav ul {
 .hero-album {
 	display: block;
 	width: calc(100% - 1.6em);
-	height: 40em;
+	height: 20em;
 	margin: 0 auto 0;
 	transform: translateY(-4em);
+	//position: absolute;
+	//z-index: 1;
 }
