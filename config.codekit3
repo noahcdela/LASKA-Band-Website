@@ -87,11 +87,143 @@
 		"oAP": "\/fonts\/librefranklin-thin-webfont.woff2",
 		"oF": 0
 		},
-	"\/images\/brail-logo.png": {
+	"\/images\/1-lyrics.png": {
 		"ft": 32768,
-		"iS": 1716,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/brail-logo.png",
+		"oAP": "\/images\/1-lyrics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/10-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/10-lyrics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/2-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/2-lyrics.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/3-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/3-lyrics.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/4-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/4-lyrics.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/5-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/5-lyrics.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/6-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/6-lyrics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/7-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/7-lyrics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/8-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/8-lyrics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/9-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/9-lyrics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 624,
+		"oA": 0,
+		"oAP": "\/images\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1766,
+		"oA": 0,
+		"oAP": "\/images\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 12562,
+		"oA": 0,
+		"oAP": "\/images\/favicon-96x96.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -124,6 +256,17 @@
 		"iS": 6981,
 		"oA": 0,
 		"oAP": "\/images\/logo-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/morse-logo.png": {
+		"ft": 32768,
+		"iS": 1716,
+		"oA": 0,
+		"oAP": "\/images\/morse-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -395,7 +538,7 @@
 		"oA": 0,
 		"oAP": "\/styles\/css\/main.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
 		},
 	"\/styles\/sass\/normalize\/_normalize.scss": {
