@@ -15,6 +15,78 @@
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
+	"\/fonts\/librebaskerville-bold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/librebaskerville-bold-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/librebaskerville-bold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/librebaskerville-bold-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/librebaskerville-italic-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/librebaskerville-italic-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/librebaskerville-italic-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/librebaskerville-italic-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/librebaskerville-regular-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/librebaskerville-regular-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/librebaskerville-regular-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/librebaskerville-regular-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/librefranklin-bold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/librefranklin-bold-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/librefranklin-bold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/librefranklin-bold-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/librefranklin-regular-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/librefranklin-regular-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/librefranklin-regular-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/librefranklin-regular-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/librefranklin-thin-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/librefranklin-thin-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/librefranklin-thin-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/librefranklin-thin-webfont.woff2",
+		"oF": 0
+		},
 	"\/images\/1-lyrics.png": {
 		"ft": 32768,
 		"iS": 212039,
@@ -125,11 +197,33 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/brail-logo.png": {
+	"\/images\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 1716,
+		"iS": 624,
 		"oA": 0,
-		"oAP": "\/images\/brail-logo.png",
+		"oAP": "\/images\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1766,
+		"oA": 0,
+		"oAP": "\/images\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 12562,
+		"oA": 0,
+		"oAP": "\/images\/favicon-96x96.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -162,6 +256,17 @@
 		"iS": 6981,
 		"oA": 0,
 		"oAP": "\/images\/logo-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/morse-logo.png": {
+		"ft": 32768,
+		"iS": 1716,
+		"oA": 0,
+		"oAP": "\/images\/morse-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -392,16 +497,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/styles\/css\/normalize.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/styles\/css\/normalize-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/styles\/sass\/.sass-cache\/7b0ca61ce68c353a125828fc769dbd1c25535d42\/main.sassc": {
 		"ft": 8192,
 		"oA": 2,
@@ -420,15 +515,67 @@
 		"oAP": "\/styles\/sass\/.sass-cache\/ab9875facb75a5be57707d729d3e4892759f64d6\/main.sassc",
 		"oF": 0
 		},
-	"\/styles\/sass\/main.sass": {
+	"\/styles\/sass\/elements\/_elements.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/styles\/sass\/css\/_elements.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/styles\/sass\/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/styles\/css\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/styles\/sass\/normalize\/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/styles\/sass\/css\/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/styles\/sass\/typography\/_type.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/styles\/sass\/css\/_type.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/styles\/sass\/variables\/_vars.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/styles\/sass\/css\/_vars.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
