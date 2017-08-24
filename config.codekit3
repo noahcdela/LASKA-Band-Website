@@ -89,7 +89,7 @@
 		},
 	"\/images\/1-lyrics.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 212039,
 		"oA": 0,
 		"oAP": "\/images\/1-lyrics.png",
 		"oF": 0,
@@ -100,7 +100,7 @@
 		},
 	"\/images\/10-lyrics.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 74569,
 		"oA": 0,
 		"oAP": "\/images\/10-lyrics.png",
 		"oF": 0,
@@ -111,51 +111,51 @@
 		},
 	"\/images\/2-lyrics.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 130473,
 		"oA": 0,
 		"oAP": "\/images\/2-lyrics.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/3-lyrics.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 108531,
 		"oA": 0,
 		"oAP": "\/images\/3-lyrics.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/4-lyrics.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 114861,
 		"oA": 0,
 		"oAP": "\/images\/4-lyrics.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/5-lyrics.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 141159,
 		"oA": 0,
 		"oAP": "\/images\/5-lyrics.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/6-lyrics.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 209170,
 		"oA": 0,
 		"oAP": "\/images\/6-lyrics.png",
 		"oF": 0,
@@ -166,7 +166,7 @@
 		},
 	"\/images\/7-lyrics.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 202611,
 		"oA": 0,
 		"oAP": "\/images\/7-lyrics.png",
 		"oF": 0,
@@ -177,7 +177,7 @@
 		},
 	"\/images\/8-lyrics.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 134410,
 		"oA": 0,
 		"oAP": "\/images\/8-lyrics.png",
 		"oF": 0,
@@ -188,7 +188,7 @@
 		},
 	"\/images\/9-lyrics.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 175616,
 		"oA": 0,
 		"oAP": "\/images\/9-lyrics.png",
 		"oF": 0,
@@ -365,7 +365,7 @@
 		},
 	"\/images\/photo3.jpg": {
 		"ft": 16384,
-		"iS": 530167,
+		"iS": 32768,
 		"oA": 0,
 		"oAP": "\/images\/photo3.jpg",
 		"oF": 0,
@@ -425,7 +425,7 @@
 		},
 	"\/images\/photo9.jpg": {
 		"ft": 16384,
-		"iS": 65536,
+		"iS": 644440,
 		"oA": 0,
 		"oAP": "\/images\/photo9.jpg",
 		"oF": 0,
@@ -538,7 +538,7 @@
 		"oA": 0,
 		"oAP": "\/styles\/css\/main.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/styles\/sass\/normalize\/_normalize.scss": {
