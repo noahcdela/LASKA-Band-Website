@@ -15,78 +15,6 @@
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
-	"\/fonts\/librebaskerville-bold-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/librebaskerville-bold-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/librebaskerville-bold-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/librebaskerville-bold-webfont.woff2",
-		"oF": 0
-		},
-	"\/fonts\/librebaskerville-italic-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/librebaskerville-italic-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/librebaskerville-italic-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/librebaskerville-italic-webfont.woff2",
-		"oF": 0
-		},
-	"\/fonts\/librebaskerville-regular-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/librebaskerville-regular-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/librebaskerville-regular-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/librebaskerville-regular-webfont.woff2",
-		"oF": 0
-		},
-	"\/fonts\/librefranklin-bold-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/librefranklin-bold-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/librefranklin-bold-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/librefranklin-bold-webfont.woff2",
-		"oF": 0
-		},
-	"\/fonts\/librefranklin-regular-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/librefranklin-regular-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/librefranklin-regular-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/librefranklin-regular-webfont.woff2",
-		"oF": 0
-		},
-	"\/fonts\/librefranklin-thin-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/librefranklin-thin-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/librefranklin-thin-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/librefranklin-thin-webfont.woff2",
-		"oF": 0
-		},
 	"\/images\/1-lyrics.png": {
 		"ft": 32768,
 		"iS": 212039,
@@ -195,6 +123,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cz-cover.jpg": {
+		"ft": 16384,
+		"iS": 257976,
+		"oA": 0,
+		"oAP": "\/images\/cz-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/favicon-16x16.png": {

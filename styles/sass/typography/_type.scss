@@ -1,42 +1,4 @@
-@font-face {
-    font-family: 'libre_franklinthin';
-    src: url('../../fonts/librefranklin-thin-webfont.woff2') format('woff2'),
-         url('../../fonts/librefranklin-thin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'libre_franklinbold';
-    src: url('../../fonts/librefranklin-bold-webfont.woff2') format('woff2'),
-         url('../../fonts/librefranklin-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'libre_franklinregular';
-    src: url('../../fonts/librefranklin-regular-webfont.woff2') format('woff2'),
-         url('../../fonts/librefranklin-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'libre_baskervillebold';
-    src: url('librebaskerville-bold-webfont.woff2') format('woff2'),
-         url('librebaskerville-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'libre_baskervilleitalic';
-    src: url('librebaskerville-italic-webfont.woff2') format('woff2'),
-         url('librebaskerville-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'libre_baskervilleregular';
-    src: url('librebaskerville-regular-webfont.woff2') format('woff2'),
-         url('librebaskerville-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+// Inconsolata
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+// Noto Sans - regular, italic
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i');

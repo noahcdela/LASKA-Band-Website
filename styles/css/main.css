@@ -4,6 +4,8 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,400i");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -353,42 +355,6 @@ td,
 th {
   padding: 0; }
 
-@font-face {
-  font-family: 'libre_franklinthin';
-  src: url("../../fonts/librefranklin-thin-webfont.woff2") format("woff2"), url("../../fonts/librefranklin-thin-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'libre_franklinbold';
-  src: url("../../fonts/librefranklin-bold-webfont.woff2") format("woff2"), url("../../fonts/librefranklin-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'libre_franklinregular';
-  src: url("../../fonts/librefranklin-regular-webfont.woff2") format("woff2"), url("../../fonts/librefranklin-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'libre_baskervillebold';
-  src: url("librebaskerville-bold-webfont.woff2") format("woff2"), url("librebaskerville-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'libre_baskervilleitalic';
-  src: url("librebaskerville-italic-webfont.woff2") format("woff2"), url("librebaskerville-italic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'libre_baskervilleregular';
-  src: url("librebaskerville-regular-webfont.woff2") format("woff2"), url("librebaskerville-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
 :root {
   font-size: calc(0.5em + 1vw); }
 
@@ -397,16 +363,25 @@ th {
     font-size: calc(0.5em + 2vw); } }
 
 body {
-  font-family: 'libre_baskervilleregular', serif;
+  font-family: 'Noto Sans', sans-serif;
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #1A222C; }
 
 h2 {
-  font-family: 'libre_franklinthin', sans-serif;
+  text-transform: uppercase;
+  font-family: 'Inconsolata', monospace;
+  font-weight: lighter;
   font-size: 1.953em;
+  letter-spacing: .3em;
   text-align: center; }
+
+h3 {
+  text-transform: uppercase;
+  font-family: 'Inconsolata', monospace;
+  font-weight: lighter;
+  font-size: 1.563em; }
 
 a {
   color: #1A222C; }
@@ -424,7 +399,7 @@ a {
 header {
   position: fixed;
   top: 0;
-  font-family: 'libre_franklinregular', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 1.25em;
   width: 100vw;
   z-index: 100; }
@@ -433,14 +408,20 @@ nav ul {
   list-style: none;
   padding: 0; }
   nav ul a {
-    text-decoration: none; }
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1em; }
 
 iframe {
   border: none;
   border: 0; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   nav ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
     position: fixed;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
@@ -448,6 +429,7 @@ iframe {
     margin: 0;
     z-index: 10;
     top: 2.5em;
+    bottom: 0;
     opacity: 0;
     pointer-events: none;
     padding: 1em 0;
@@ -460,6 +442,7 @@ iframe {
     nav ul li {
       width: 100%; }
       nav ul li a {
+        font-size: 1.2em;
         display: block;
         width: 100%;
         padding: .5em 0; }
@@ -499,12 +482,16 @@ iframe {
       height: 2px;
       background-color: #1A222C;
       margin: .15em 0;
-      border-radius: 1em; }
-    .nav-toggle div {
-      display: none;
-      position: absolute;
-      right: 2.8em;
-      opacity: .8; } }
+      border-radius: 1em;
+      transition: 250ms ease; }
+    .nav-toggle .span-1.x-1 {
+      transform-origin: top right;
+      transform: rotate(-34deg); }
+    .nav-toggle .span-2.x-2 {
+      opacity: 0; }
+    .nav-toggle .span-3.x-3 {
+      transform-origin: top right;
+      transform: rotate(34deg); } }
 
 @media only screen and (min-width: 768px) {
   .mobile-nav {
@@ -594,9 +581,10 @@ iframe {
 .about {
   position: relative;
   background-color: #435770;
-  overflow: visible;
+  overflow: auto;
   color: #fff;
-  padding-bottom: 10em; }
+  padding-bottom: 5em;
+  padding-top: 2em; }
   .about p {
     max-width: 42em;
     line-height: 1.5;
@@ -663,35 +651,45 @@ iframe {
 
 .music {
   background-color: #435770;
-  overflow: auto;
   color: #C2D0F4;
-  padding-bottom: 5em; }
-  .music h2 {
-    margin: 2em 0; }
+  position: relative; }
+  .music h3 {
+    text-align: center; }
   .music a {
     text-align: center;
     color: #C2D0F4; }
 
-@media only screen and (max-width: 767px) {
-  .music-video {
-    width: 100%;
-    height: calc((100vw)/1.77);
-    margin: 1em 0; } }
+.music-callout {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  transform: translateY(-4em); }
+
+.cz-cover {
+  width: 100%; }
+
+.soundcloud-album {
+  width: 100%;
+  height: 450px; }
 
 @media only screen and (min-width: 768px) {
-  .music-container {
-    max-width: 42em;
-    margin: 0 auto; }
-  .music-video {
-    display: block;
+  .music-callout {
     width: 42em;
-    height: calc((42em)/1.77);
-    margin: 2em 0; }
-  .soundcloud {
-    height: 10em;
-    margin: 2em 0; }
-  .music-links {
-    width: 20vw; } }
+    transform: translateY(-3em);
+    display: flex; }
+    .music-callout h3 {
+      margin: 0 0 .5em 0;
+      text-align: left; }
+  .cz-cover {
+    width: 25em;
+    height: 25em;
+    flex-grow: 0; }
+  .soundcloud-album {
+    height: 15em; }
+  .callout-right {
+    padding-left: 1em;
+    margin-bottom: -.3em;
+    align-self: flex-end; } }
 
 .soundcloud {
   width: 100%;
@@ -709,38 +707,24 @@ iframe {
     text-decoration: none;
     transition: 100ms ease; }
     .links a:hover {
-      color: black; }
+      color: #fff; }
 
-@supports (display: grid) {
-  @media only screen and (min-width: 768px) {
-    .music-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
-      grid-column-gap: .8em;
-      grid-row-gap: .8em;
-      grid-template-areas: "featured featured" "featured featured" "second third" "fourth fith"; }
-    .music-video {
-      display: block;
-      width: 100%;
-      height: calc((20.5em)/1.77);
-      margin: 0; }
-    .soundcloud {
-      margin: 0;
-      height: calc((20.5em)/1.77); }
-    iframe:first-child {
-      grid-area: featured;
-      height: calc((42em)/1.77); }
-    iframe:nth-child(2) {
-      grid-area: second; }
-    iframe:nth-child(3) {
-      grid-area: third; }
-    iframe:nth-child(4) {
-      grid-area: fourth; }
-    iframe:nth-child(5) {
-      grid-area: fith; } } }
+.music-videos {
+  overflow: auto;
+  padding-bottom: 2em;
+  background-color: #1A222C; }
+
+.music-videos-container {
+  display: flex;
+  flex-direction: column; }
+
+.music-video {
+  margin: 2em auto 0;
+  width: 90vw;
+  height: calc((95vw)/1.77); }
 
 .lyrics {
+  padding-top: 2em;
   background-color: #1A222C;
   overflow: auto;
   color: #C2D0F4;
@@ -835,11 +819,29 @@ iframe {
   margin: 0 auto 3em;
   padding: 1em;
   text-decoration: none;
-  font-family: 'libre_franklinregular', sans-serif;
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: .2em;
   text-transform: uppercase;
   transition: 250ms ease; }
   .contact-btn:hover {
     box-shadow: 0 0 4em rgba(194, 208, 244, 0.2); }
+
+.fb-shows-btn {
+  border: 2px solid #435770;
+  color: #435770;
+  display: block;
+  text-align: center;
+  width: 15em;
+  margin: 0 auto 3em;
+  padding: 1em;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  transition: 250ms ease; }
+  .fb-shows-btn:hover {
+    background-color: #435770;
+    color: #fff; }
 
 footer {
   padding: 2em 0;
