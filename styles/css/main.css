@@ -758,16 +758,16 @@ iframe {
     display: none; } }
 
 .photos {
-  height: 30em;
+  height: 20em;
   overflow: auto;
   background-color: #ffffff; }
 
 .photos-carousel {
-  height: 30em; }
+  height: 20em; }
   .photos-carousel .carousel-cell {
-    height: 30em; }
+    height: 20em; }
     .photos-carousel .carousel-cell img {
-      height: 30em; }
+      height: 20em; }
   .photos-carousel .flickity-prev-next-button {
     background: rgba(255, 255, 255, 0.5);
     transition: 100ms; }

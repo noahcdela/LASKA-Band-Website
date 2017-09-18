@@ -17,7 +17,7 @@
 		},
 	"\/images\/1-lyrics.png": {
 		"ft": 32768,
-		"iS": 212039,
+		"iS": 325029,
 		"oA": 0,
 		"oAP": "\/images\/1-lyrics.png",
 		"oF": 0,
@@ -28,7 +28,7 @@
 		},
 	"\/images\/10-lyrics.png": {
 		"ft": 32768,
-		"iS": 74569,
+		"iS": 278347,
 		"oA": 0,
 		"oAP": "\/images\/10-lyrics.png",
 		"oF": 0,
@@ -39,7 +39,7 @@
 		},
 	"\/images\/2-lyrics.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 309330,
 		"oA": 0,
 		"oAP": "\/images\/2-lyrics.png",
 		"oF": 0,
@@ -50,7 +50,7 @@
 		},
 	"\/images\/3-lyrics.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 272919,
 		"oA": 0,
 		"oAP": "\/images\/3-lyrics.png",
 		"oF": 0,
@@ -61,7 +61,7 @@
 		},
 	"\/images\/4-lyrics.png": {
 		"ft": 32768,
-		"iS": 189572,
+		"iS": 259743,
 		"oA": 0,
 		"oAP": "\/images\/4-lyrics.png",
 		"oF": 0,
@@ -72,7 +72,7 @@
 		},
 	"\/images\/5-lyrics.png": {
 		"ft": 32768,
-		"iS": 231833,
+		"iS": 311841,
 		"oA": 0,
 		"oAP": "\/images\/5-lyrics.png",
 		"oF": 0,
@@ -83,7 +83,7 @@
 		},
 	"\/images\/6-lyrics.png": {
 		"ft": 32768,
-		"iS": 209170,
+		"iS": 318627,
 		"oA": 0,
 		"oAP": "\/images\/6-lyrics.png",
 		"oF": 0,
@@ -94,7 +94,7 @@
 		},
 	"\/images\/7-lyrics.png": {
 		"ft": 32768,
-		"iS": 202611,
+		"iS": 763836,
 		"oA": 0,
 		"oAP": "\/images\/7-lyrics.png",
 		"oF": 0,
@@ -105,7 +105,7 @@
 		},
 	"\/images\/8-lyrics.png": {
 		"ft": 32768,
-		"iS": 134410,
+		"iS": 192816,
 		"oA": 0,
 		"oAP": "\/images\/8-lyrics.png",
 		"oF": 0,
@@ -116,7 +116,7 @@
 		},
 	"\/images\/9-lyrics.png": {
 		"ft": 32768,
-		"iS": 175616,
+		"iS": 230815,
 		"oA": 0,
 		"oAP": "\/images\/9-lyrics.png",
 		"oF": 0,
@@ -321,9 +321,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/photo5.jpg": {
+	"\/images\/photo5.JPG": {
 		"ft": 16384,
-		"iS": 71162,
+		"iS": 1352339,
 		"oA": 0,
 		"oAP": "\/images\/photo5.jpg",
 		"oF": 0,
