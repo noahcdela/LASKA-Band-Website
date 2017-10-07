@@ -430,7 +430,6 @@ iframe {
 .home {
   overflow: auto;
   background-color: #fff;
-  height: 35em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -446,12 +445,29 @@ iframe {
           flex-direction: column; }
 
 .logo {
-  height: 4em;
   width: 100%;
   background-image: url("../../images/laska-logo.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat; }
+
+@media only screen and (max-width: 767px) {
+  .home {
+    height: 10em; }
+  .logo {
+    height: 3em; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .home {
+    height: 35em; }
+  .logo {
+    height: 5em; } }
+
+@media only screen and (min-width: 1024px) {
+  .home {
+    height: 100vh; }
+  .logo {
+    height: 5em; } }
 
 .hero-album {
   display: block;
@@ -543,7 +559,9 @@ iframe {
             flex-direction: column;
     height: 25em;
     padding-left: 1em;
-    margin-bottom: -.3em; } }
+    margin-bottom: -.3em; }
+  .soundcloud-album {
+    height: 100%; } }
 
 .soundcloud {
   width: 100%;
