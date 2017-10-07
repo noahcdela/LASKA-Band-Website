@@ -9,11 +9,127 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
 	"\/CNAME": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/CNAME",
 		"oF": 0
+		},
+	"\/images\/1-lyrics.png": {
+		"ft": 32768,
+		"iS": 212039,
+		"oA": 0,
+		"oAP": "\/images\/1-lyrics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/10-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/10-lyrics.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/2-lyrics.png": {
+		"ft": 32768,
+		"iS": 214111,
+		"oA": 0,
+		"oAP": "\/images\/2-lyrics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/3-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/3-lyrics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/4-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/4-lyrics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/5-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/5-lyrics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/6-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/6-lyrics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/7-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/7-lyrics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/8-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/8-lyrics.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/9-lyrics.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/9-lyrics.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/cz-cover.jpg": {
 		"ft": 16384,
@@ -114,6 +230,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/lyrics.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lyrics.html",
+		"oF": 0
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -225,6 +347,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/videos.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/videos.html",
+		"oF": 0
 		}
 	},
 "hooks": [
