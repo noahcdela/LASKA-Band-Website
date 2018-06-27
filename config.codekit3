@@ -7,15 +7,17 @@
 		"uuidString": "70A7D128-EEA5-4009-AF5F-9684C5B94CAF"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26680",
 "files": {
 	"\/about.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/about.html",
 		"oF": 0
 		},
 	"\/CNAME": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/CNAME",
@@ -134,6 +136,7 @@
 	"\/images\/cz-cover.jpg": {
 		"ft": 16384,
 		"iS": 257976,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/cz-cover.jpg",
 		"oF": 0,
@@ -177,6 +180,7 @@
 	"\/images\/fog-bg.jpg": {
 		"ft": 16384,
 		"iS": 78395,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/fog-bg.jpg",
 		"oF": 0,
@@ -196,6 +200,7 @@
 		"q": 100
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
@@ -232,16 +237,17 @@
 		"tS": 0
 		},
 	"\/lyrics.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/lyrics.html",
 		"oF": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -266,18 +272,21 @@
 		"oS": 0
 		},
 	"\/styles\/sass\/.sass-cache\/7b0ca61ce68c353a125828fc769dbd1c25535d42\/main.sassc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/styles\/sass\/.sass-cache\/7b0ca61ce68c353a125828fc769dbd1c25535d42\/main.sassc",
 		"oF": 0
 		},
 	"\/styles\/sass\/.sass-cache\/a3ebe30121df39dee32ede64c8bea77521b7c743\/main.sassc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/styles\/sass\/.sass-cache\/a3ebe30121df39dee32ede64c8bea77521b7c743\/main.sassc",
 		"oF": 0
 		},
 	"\/styles\/sass\/.sass-cache\/ab9875facb75a5be57707d729d3e4892759f64d6\/main.sassc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/styles\/sass\/.sass-cache\/ab9875facb75a5be57707d729d3e4892759f64d6\/main.sassc",
@@ -349,6 +358,7 @@
 		"uL": 1
 		},
 	"\/videos.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos.html",
@@ -363,7 +373,8 @@
 	"creationDate": 502339856,
 	"displayValue": "LASKA Website",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-chloe"
+	"iconImageName": "meme-chloe",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -371,6 +382,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -899,6 +911,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -930,6 +946,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -963,9 +983,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -995,6 +1015,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -1004,14 +1028,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2115,7 +2131,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -2148,6 +2165,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2159,6 +2177,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -2189,7 +2208,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2221,13 +2241,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2236,7 +2256,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2256,7 +2277,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2284,7 +2306,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
